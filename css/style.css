@@ -1,0 +1,45 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #10101e;
+}
+
+body.hidden {
+  background-color: #fff;
+}
+
+body #btn {
+  width: 200px;
+  height: 200px;
+  background-color: #ef454a;
+  border-radius: 50%;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: 0 10px 30px #d13408;
+          box-shadow: 0 10px 30px #d13408;
+}
+
+body #btn:hover {
+  opacity: 0.9;
+}
+
+body #btn:active {
+  -webkit-box-shadow: 0 5px 0 #d13408;
+          box-shadow: 0 5px 0 #d13408;
+  margin-top: 35px;
+}
+/*# sourceMappingURL=style.css.map */
