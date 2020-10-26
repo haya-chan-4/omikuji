@@ -12,6 +12,7 @@
     const n = Math.random();
     if (n < 0.1) {
       btn.textContent = '大吉';
+      bc.classList.add('hidden');
     } else if (n < 0.3) {
       btn.textContent = '中吉';
     } else if(n < 0.6) {
